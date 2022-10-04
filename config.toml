@@ -1,0 +1,14 @@
+enableRobotsTXT = true
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "mytheme"
+relativeURLS = true
+
+[module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"
+
+custom_css = ["css/custom.css"]
+custom_js = ["js/custom.js"]
